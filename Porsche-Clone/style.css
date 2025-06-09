@@ -1,0 +1,1361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    overflow-x: hidden;
+}
+
+.wdxl-lubrifont-tc-regular {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* .video video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 2000px;
+    min-height: 1000px;
+    object-fit: cover;
+    z-index: -1;
+    border: none;
+}  */
+/* .video video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+} */
+
+
+.topbar {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+}
+
+.topbar .video{
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.menu ul {
+  position: relative;
+  left: 50px;
+  top: 25px;
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.menu li a:hover {
+  background: rgb(99, 105, 119);
+}
+
+.porsche h4{
+    position: absolute;
+    top: 25px;
+    left: 900px;
+    color: white;
+    font-size: 40px;
+    font-family: WDXL Lubrifont TC;
+}
+
+.user ul{
+    list-style: none;
+}
+
+.user li a{
+    position: absolute;
+    padding: 10px 10px;
+    border-radius: 5px;
+    top: 20px;
+    left: 1750px;
+    text-decoration: none;
+    color: white;
+}
+
+.user li a:hover{
+    background: rgb(99, 105, 119);
+}
+
+.mid ul{
+    list-style: none;
+}
+
+.mid li a{
+    position: relative;
+    top: 250px;
+    left: 120px;
+    font-size: 150px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.mid2 ul{
+    list-style: none;
+}
+
+.mid2 li a{
+    position: relative;
+    padding: 20px 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    top: 300px;
+    left: 120px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.mid2 li a:hover{
+    background: rgb(75, 74, 74);
+    opacity: 30%;
+}
+
+.bottom ul{
+    list-style: none;
+}
+
+.bottom li a{
+    position: relative;
+    top: 480px;
+    left: 480px;
+    font-size: 20px;
+    text-decoration: none;
+    color: lightgrey;
+}
+.p1{
+    padding: 60px 280px;
+}
+
+.p1 .card{
+    display: flex;
+    gap: 150px;
+    overflow: hidden;
+}
+
+.p1 .card .item1{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.p1 .card .item1:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.p1 .card .item1 img{
+    height: 300px;
+    /* gap: 50px; */
+    padding: 0;
+    border-radius: 10px;
+    z-index: 20;
+}
+
+.text1 p{
+    display: flex;
+    position: absolute;
+    top: 1300px;
+    left: 300px;
+    font-size: 25px;
+    color: white;
+}
+
+.text2 p{
+    display: flex;
+    position: absolute;
+    top: 1300px;
+    left: 750px;
+    font-size: 25px;
+    color: white;
+}
+
+.text3 p{
+    display: flex;
+    position: absolute;
+    top: 1300px;
+    left: 1200px;
+    font-size: 25px;
+    color: white;
+}
+
+.a1 ul a{
+    display: flex;
+    position: absolute;
+    top: 1300px;
+    left: 630px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a1 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+.a2 ul a{
+    display: flex;
+    position: absolute;
+    top: 1300px;
+    left: 1080px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a2 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+.a3 ul a{
+    display: flex;
+    position: absolute;
+    top: 1300px;
+    left: 1530px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a3 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+.para p{
+    display: flex;
+    position: absolute;
+    top: 1400px;
+    left: 300px;
+    font-size: 15px;
+    color: gray;
+}
+
+.head1 p{
+    display: flex;
+    position: absolute;
+    top: 1700px;
+    left: 120px;
+    font-size: 90px;
+    color: black;
+    font-family: Tahoma;
+}
+/*--------------*/
+.v1 {
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.thumb1,
+.video1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 450px;
+  left: 140px;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.video1 {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.v1:hover .video1 {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.v1:hover .thumb1{
+  opacity: 0;
+}
+/*------*/
+
+.v2{
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.thumb2,
+.video2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 450px;
+  left: 990px;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.video2{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.v2:hover .video2{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.v2:hover .thumb2{
+  opacity: 0;
+}
+/*--*/
+.v3{
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.thumb3,
+.video3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 950px;
+  left: 140px;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.video3{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.v3:hover .video3{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.v3:hover .thumb3{
+  opacity: 0;
+}
+
+/*------*/
+
+.v4{
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.thumb4,
+.video4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 950px;
+  left: 990px;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.video4{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.v4:hover .video4{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.v4:hover .thumb4{
+  opacity: 0;
+}
+/*--*/
+
+/*------*/
+
+.v5{
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.thumb5,
+.video5{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 1450px;
+  left: 140px;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.video5{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.v5:hover .video5{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.v5:hover .thumb5{
+  opacity: 0;
+}
+/*--*/
+
+.v6{
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  border-radius: 5px;
+}
+
+.thumb6,
+.video6{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 1450px;
+  left: 990px;
+  transition: opacity 0.3s ease;
+  border-radius: 5px;
+}
+
+.video6{
+  opacity: 0;
+  pointer-events: none;
+}
+
+.v6:hover .video6{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.v6:hover .thumb6{
+  opacity: 0;
+}
+
+/*---------car1------------------*/
+
+.c1a{
+    display: flex;
+    position: absolute;
+    top: 1950px;
+    left: 500px;
+    font-size: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+     font-family: "WDXL Lubrifont TC", sans-serif;
+   font-weight: 800;
+   font-style: normal;
+}
+
+.c1b{
+    display: flex;
+    position: absolute;
+    top: 2280px;
+    left: 150px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c1c{
+    display: flex;
+    position: absolute;
+    top: 2315px;
+    left: 150px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a4 ul a{
+    display: flex;
+    position: absolute;
+    top: 2300px;
+    left: 850px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a4 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+/*---------car2-------*/
+
+.c2a{
+    display: flex;
+    position: absolute;
+    top: 1950px;
+    left: 1400px;
+    font-size: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-family: Haettenschweiler;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.c2b{
+    display: flex;
+    position: absolute;
+    top: 2280px;
+    left: 1050px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c2c{
+    display: flex;
+    position: absolute;
+    top: 2315px;
+    left: 1050px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a5 ul a{
+    display: flex;
+    position: absolute;
+    top: 2300px;
+    left: 1750px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a5 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+/*--------car3-----------*/
+
+.c3a{
+    display: flex;
+    position: absolute;
+    top: 2450px;
+    left: 450px;
+    font-size: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-family: "Dancing Script", cursive;
+}
+
+.c3b{
+    display: flex;
+    position: absolute;
+    top: 2780px;
+    left: 150px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c3c{
+    display: flex;
+    position: absolute;
+    top: 2815px;
+    left: 150px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+
+.a6 ul a{
+    display: flex;
+    position: absolute;
+    top: 2800px;
+    left: 850px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a6 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+/*----------car4----------*/
+
+.c4a{
+    display: flex;
+    position: absolute;
+    top: 2450px;
+    left: 1320px;
+    font-size: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-family: "Dancing Script", cursive;
+}
+
+.c4b{
+    display: flex;
+    position: absolute;
+    top: 2780px;
+    left: 1050px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c4c{
+    display: flex;
+    position: absolute;
+    top: 2780px;
+    left: 1120px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c4d{
+    display: flex;
+    position: absolute;
+    top: 2815px;
+    left: 1050px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a7 ul a{
+    display: flex;
+    position: absolute;
+    top: 2800px;
+    left: 1750px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a7 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+
+/*--------car5----------*/
+
+.c5a{
+    display: flex;
+    position: absolute;
+    top: 2950px;
+    left: 450px;
+    font-size: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-family: "Dancing Script", cursive;
+}
+
+.c5b{
+    display: flex;
+    position: absolute;
+    top: 3280px;
+    left: 150px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c5c{
+    display: flex;
+    position: absolute;
+    top: 3280px;
+    left: 220px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c5d{
+    display: flex;
+    position: absolute;
+    top: 3315px;
+    left: 150px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a8 ul a{
+    display: flex;
+    position: absolute;
+    top: 3300px;
+    left: 850px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a8 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+
+/*---------car6--------*/
+
+.c6a{
+    display: flex;
+    position: absolute;
+    top: 2950px;
+    left: 1320px;
+    font-size: 60px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    font-family: "Dancing Script", cursive;
+}
+
+.c6b{
+    display: flex;
+    position: absolute;
+    top: 3280px;
+    left: 1050px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c6c{
+    display: flex;
+    position: absolute;
+    top: 3280px;
+    left: 1120px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+    background: grey;
+}
+
+.c6d{
+    display: flex;
+    position: absolute;
+    top: 3315px;
+    left: 1050px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a9 ul a{
+    display: flex;
+    position: absolute;
+    top: 3300px;
+    left: 1750px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.a9 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+/*----Discover----*/
+
+.head2 p{
+    display: flex;
+    position: absolute;
+    top: 3700px;
+    left: 900px;
+    font-size: 50px;
+    color: black;
+    font-family: Tahoma;
+}
+
+/************************/
+
+.i1{
+    position: relative;
+    top: 2250px;
+    left: 360px;
+}
+
+.i1 .cardd{
+    display: flex;
+    gap: 25px;
+    overflow: hidden;
+}
+
+.i1 .cardd .ia{
+    border-radius: 10px;
+}
+
+.i1 .cardd .ia:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.i1 .cardd .ia img{
+    height: 400px;
+    padding: 0;
+    border-radius: 10px;
+}
+/*****/
+.ia1 p{
+    display: flex;
+    position: absolute;
+    top: 4180px;
+    left: 400px;
+    font-size: 20px;
+    color: white;
+}
+
+.ib1 p{
+    display: flex;
+    position: absolute;
+    top: 4180px;
+    left: 810px;
+    font-size: 20px;
+    color: white;
+}
+
+.ic1 p{
+    display: flex;
+    position: absolute;
+    top: 4180px;
+    left: 1250px;
+    font-size: 20px;
+    color: white;
+}
+
+/*---------*/
+
+.ia2 ul a{
+    display: flex;
+    position: absolute;
+    top: 4180px;
+    left: 710px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.ia2 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+.ib2 ul a{
+    display: flex;
+    position: absolute;
+    top: 4180px;
+    left: 1130px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.ib2 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+.ic2 ul a{
+    display: flex;
+    position: absolute;
+    top: 4180px;
+    left: 1560px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+
+.ic2 li a:hover{
+  background: rgb(99, 105, 119);
+}
+
+/**---------------*/
+
+.footer{
+  background-color: rgb(23, 23, 23);
+  position: absolute;
+  width: 3300px;
+  height: 1000px;
+  top: 4400px;
+  font-family: Roboto, Oxygen,Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer .language{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  top: 60px;
+  left: 80px;
+}
+
+.footer .language ul li{
+  list-style: none;
+}
+
+.footer .language ul a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .language ul a .change{
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+.footer .language ul a .change:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .News{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+}
+
+.footer .News ul li{
+  list-style: none;
+}
+
+.footer .News ul a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .News ul li .subscribe{
+  font-size: 18px;
+  padding: 12px 100px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.footer .Location{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  top: 200px;
+  left: 380px;
+}
+
+.footer .Location ul li{
+  list-style: none;
+}
+
+.footer .Location ul a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .Location ul li .get{
+  font-size: 18px;
+  padding: 12px 100px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.footer .Socialmedia{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+.footer .Socialmedia ul li{
+  list-style: none;
+}
+
+.footer .Socialmedia ul a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .Socialmedia ul li .icons a{
+  color: black;
+  padding: 15px 15px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.footer .companya{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  top: 450px;
+  left: 80px;
+}
+
+.footer .companya ul li{
+  list-style: none;
+}
+
+.footer .companya ul a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .companya .com1 ul a {
+  padding:5px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer .companya .com1 ul a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .companya .com2 ul a {
+  padding:4px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer .companya .com2 ul a:hover{
+  background: rgb(58, 59, 60);
+}
+
+
+.footer .companyb{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  top: 450px;
+  left: 380px;
+}
+
+.footer .companyb ul li{
+  list-style: none;
+}
+
+.footer .companyb ul a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .companyb .com3 ul a {
+  padding:5px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer .companyb .com3 ul a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .companyb .com4 ul a {
+  padding:4px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer .companyb .com4 ul a:hover{
+  background: rgb(58, 59, 60);
+}
+
+
+
+.footer .companyc{
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  position: absolute;
+  top: 450px;
+  left: 700px;
+}
+
+.footer .companyc ul li{
+  list-style: none;
+}
+
+.footer .companyc ul a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer .companyc .com5 ul a {
+  padding:5px 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer .companyc .com5 ul a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .bottoma{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  position: absolute;
+  top: 650px;
+  left: 80px;
+}
+
+.footer .b1{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 220px;
+}
+
+.footer .b1 li{
+  list-style: none;
+}
+
+.footer .b1 ul li a{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.footer .b1 li a:hover{
+  background: rgb(58, 59, 60);
+}
+
+
+.footer .b2{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 315px;
+}
+
+.footer .b2 li{
+  list-style: none;
+}
+
+.footer .b2 ul li a{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.footer .b2 li a:hover{
+  background: rgb(58, 59, 60);
+}
+
+
+.footer .b3{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 420px;
+}
+
+.footer .b3 li{
+  list-style: none;
+}
+
+.footer .b3 ul li a{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.footer .b3 li a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .b4{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 520px;
+}
+
+.footer .b4 li{
+  list-style: none;
+}
+
+.footer .b4 ul li a{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.footer .b4 li a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .b5{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 690px;
+}
+
+.footer .b5 li{
+  list-style: none;
+}
+
+.footer .b5 ul li a{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.footer .b5 li a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .b6{
+  color: white;
+  position: absolute;
+  top: 0px;
+  left: 910px;
+}
+
+.footer .b6 li{
+  list-style: none;
+}
+
+.footer .b6 ul li a{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.footer .b6 li a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .bottomb{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  left: 0px;
+}
+
+.footer .bb{
+  color: white;
+  position: absolute;
+  top: 102px;
+  left: 500px;
+}
+
+.footer .bb li{
+  list-style: none;
+}
+
+.footer .bb ul li a{
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.footer .bb li a:hover{
+  background: rgb(58, 59, 60);
+}
+
+.footer .bottomc{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  left: 800px;
+  top: 220px;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
