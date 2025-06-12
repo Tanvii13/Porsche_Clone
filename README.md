@@ -4,4 +4,4 @@ A responsive front-end clone of the official Porsche website, built using **HTML
 
 ## 📸 Preview
 
-![Demo](Porsche_ScreenRecording.mp4)
+[Watch the demo](Porsche_ScreenRecording.mp4)
